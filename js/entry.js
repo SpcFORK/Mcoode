@@ -621,27 +621,27 @@ globalize(function MC_input_gen_oninput() {
 })
 
 globalize(function MC_input_w_oninput(wi) {
-  MC_update_bottom_feed()
-
   mc_wh[0] = parseInt(wi.value)
+
+  MC_update_bottom_feed()
 })
 
 globalize(function MC_input_h_oninput(hi) {
-  MC_update_bottom_feed()
-
   mc_wh[1] = parseInt(hi.value)
+
+  MC_update_bottom_feed()
 })
 
 globalize(function MC_input_hep_oninput(hi) {
-  MC_update_bottom_feed()
-
   MC_header_encoding_size = parseInt(hi.value)
+
+  MC_update_bottom_feed()
 })
 
 globalize(function MC_input_bep_oninput(bi) {
-  MC_update_bottom_feed()
-
   MC_encoding_size = parseInt(bi.value)
+
+  MC_update_bottom_feed()
 })
 
 // ---
